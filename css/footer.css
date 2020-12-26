@@ -1,0 +1,78 @@
+/* 结束 */
+* {
+    margin: 0;
+    padding: 0;
+}
+.footer {
+    position: relative;
+    margin:100px auto 0;
+    padding: 35px 20px 30px 20px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1920px;
+    /* height: 130px; */
+    /* background-color: pink; */
+    background-color: #000;
+}
+.footer img {
+    display: block;
+    margin-top: 5px;
+}
+.footer ul {
+    position: absolute;
+    top: 35px;
+    right: 40px;
+    float: left;
+}
+.footer ul li {
+    list-style: none;
+    float: left;
+    margin: 10px;
+}
+.footer li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* .footer li:hover {
+    background-color: #ff2850;
+} */
+
+/* 白线 */
+
+.footer .line {
+    margin: 20px auto;
+    max-width: 1548px;
+    border: 1px solid #333;
+}
+
+/* 版权 */
+.footer .copyright {
+    width: 100%;
+    max-width: 1920px;
+    height: 152px;
+    background-color: #000;
+    color: #fff;
+}
+.copyright .copyright-year {
+    margin: 10px 0 0;
+    color: #666;
+    font-family: JuventusFans;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    line-height: 16px;
+    text-align: center;
+}
+.copyright .helpdesk-general-info-1,
+.copyright .helpdesk-general-info-2 {
+    margin: 10px 0 0;
+    color: #666;
+    font-family: JuventusFans;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    line-height: 16px;
+    text-align: center;
+}    

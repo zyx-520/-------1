@@ -1,0 +1,304 @@
+body {
+    background-color: #000;
+}
+
+.CenterPhoto {
+    overflow: hidden;
+    position: relative;
+    margin: 80px auto 0;
+    width: 100%;
+    max-width: 1920px;
+    background: url(../images/Member.webp) no-repeat;
+    /* max-height: 730px; */
+    height: 730px;
+    /* height: 100% */
+    /* max-height: 730px; */
+    height: 730px;
+    /* height: 100% */
+}
+
+.CenterPhoto .word {
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.CenterPhoto .word a {
+    display: block;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    text-decoration: none;
+    font-size: 180px;
+    font-weight: 1000;
+    /* max-height: 540px; *
+    /* max-width: 75%; */
+    color: #FEFEFE;
+    transition: all .4s;
+}
+
+/* .CenterPhoto .word a:hover {
+    transform: scale(1.2);
+} */
+/* 按钮 */
+.CenterPhoto .fall {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    bottom: 150px;
+}
+
+/* 全体球员 */
+.AllMember {
+    max-width: 1548px;
+    margin: 100px auto 240px;
+    /* padding: 32px 20px 0 150px; */
+    /* background-color: pink; */
+}
+
+.AllMember_main {
+    position: relative;
+    /* margin-top: 32px; */
+    /* padding: 0 20px; */
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    overflow: hidden;
+    max-width: 1548px;
+}
+
+/* .AllMember_main::before {
+    content: '守门员';
+    color: #3E3E3E;
+    ;
+    font-size: 200px;
+    position: absolute;
+    z-index: -1;
+} */
+
+.Member_title {
+    margin-bottom: 20px;
+    overflow: hidden;
+    max-width: 1548px;
+    /* height: 700px; */
+}
+
+/* 位置 */
+.Member_title h2 {
+    display: inline;
+    position: absolute; 
+    top: 50px;
+    left: 0;
+    z-index: 10;
+    box-sizing: border-box; 
+    line-height: 50px;
+    font-size: 200px;
+    font-weight: 700;
+    color: #3E3E3E;
+}
+
+/* 照片 */
+.Member_photo {
+    width: 100%;
+    max-width: 1700px;
+    display: flex;
+    /* height: 780px; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+/* 弹性盒子 */
+.one_img {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    flex-grow: 1;
+    flex-shrink: 0;
+    /* height: 780px; */
+    /* background-color: pink; */
+}
+
+.two_img {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    flex-grow: 1;
+    flex-shrink: 0;
+    /* height: 780px; */
+    border-left: 1px solid #4A4A4A;
+    border-right: 1px solid #4A4A4A;
+    /* background-color: purple; */
+}
+
+.three_img {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    flex-grow: 1;
+    flex-shrink: 0;
+    /* height: 780px; */
+    /* background-color: blue; */
+}
+
+
+/* 触摸时 */
+#hover_box {
+    display: none;
+    /* height: 600px; */
+    position: absolute;
+    top: 270px;
+    left: 150px;
+    z-index: 10;
+    width: 220px;
+    /* background-color: pink; */
+}
+
+.hover_box1 {
+    padding: 9px 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    max-width: 225px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ff2850;
+    text-align: center;
+    border: 1px solid #ff2850;
+    cursor: pointer;
+    transition: all .4s;
+
+}
+
+.hover_box3 {
+    padding: 9px 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    max-width: 225px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    /* border: 1px solid #fff; */
+    cursor: pointer;
+    background-color: #ff2850;
+    transition: all .4s;
+}
+
+.images:hover {
+    opacity: 0.4;
+}
+
+.one_img:hover #hover_box,
+.two_img:hover #hover_box,
+.three_img:hover #hover_box {
+    display: block;
+}
+
+.one_img,
+.two_img,
+.three_img {
+    width: 33.3%;
+}
+
+.one_img img,
+.two_img img,
+.three_img img {
+    display: inline-block;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.hover_box1:hover {
+    color: #fff;
+    background-color: #ff2850;
+    transform: scale(1.2);
+}
+
+.hover_box3:hover {
+    color: #ff2850;
+    background-color: #fff;
+    transform: scale(1.2);
+}
+
+/* 球员信息 */
+.info {
+    margin: 0 auto;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+    background-color: #000;
+    box-shadow: 0 0 170px 100px;
+}
+
+.info_Number {
+    float: left;
+    width: 25%;
+    font-size: 100px;
+    color: #ccc;
+    line-height: 100px;
+}
+
+.info_Name {
+    float: left;
+}
+
+.info_Name .English {
+    font-size: 20px;
+    line-height: 20px;
+    color: #fff;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+.info_Name .Chinese {
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 50px;
+    color: #fff;
+}
+.Coach {
+        /* margin-top: 32px; */
+        /* padding: 0 20px; */
+        margin-bottom: 50px;
+        box-sizing: border-box;
+        overflow: hidden;
+        max-width: 1548px;
+        display: flex;
+        justify-content: right;
+}
+.Coach_info {
+    flex-grow: 1;
+}
+.Coach_info h1 {
+    height: 200px;
+    padding-top: 50px;
+    box-sizing: border-box;
+    line-height: 50px;
+    font-size: 200px;
+    font-weight: 700;
+    color: #3E3E3E;
+    overflow: hidden;
+}
+.Coach_name {
+    margin: 100px 0;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 32px;
+    color: #fff;
+}
+.Coach_Other_info {
+    font-size: 24px;
+    color: #808080;
+}
+.Coach_img {
+    width: 40%;
+}

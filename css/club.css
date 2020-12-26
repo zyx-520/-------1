@@ -1,0 +1,175 @@
+
+.CenterPhoto {
+    overflow: hidden;
+    position: relative;
+    margin: 80px auto 0;
+    width: 100%;
+    max-width: 1920px;
+    background:url(../images/CenterPhoto.webp) no-repeat;
+    /* max-height: 730px; */
+    height: 730px;
+    /* height: 100% */
+}
+.CenterPhoto .word {
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.6) ;
+}
+.CenterPhoto .word a {
+    display: block;
+    position: absolute;
+    top: 150px;
+    left: 100px; 
+    text-decoration: none;
+    font-size: 180px;
+    font-weight: 1000;
+    /* max-height: 540px; *
+    /* max-width: 75%; */
+    color: #FEFEFE;
+    transition: all .4s;
+}
+/* .CenterPhoto .word a:hover {
+    transform: scale(1.2);
+} */
+/* 按钮 */
+.CenterPhoto .fall {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+}
+
+/* 公司简介 */
+#company {
+    position: relative;
+    margin:100px auto 0;
+    width: 100%;
+    max-width: 1920px;
+    height: 900px;
+    background:url(../images/company.webp) no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    /* opacity: 0.8; */
+}
+/* history 字体 */
+.com_word {
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.com_word h1 {
+    position: absolute;
+    top: 200px;
+    left: 250px;
+    font-size: 54px;
+    color: #FEFEFE;
+}
+/* 三个照片 */
+.history {
+    position: absolute;
+    top: 300px;
+    right: 0;
+    width: 1140px;
+    height: 605px;
+    /* background-color: pink */
+    padding: 70px;
+    box-sizing: border-box;
+}
+.history span {
+    display: inline-block;
+    background:rgba(0, 0, 0, 0.6);
+    transition: all 0.4s;
+}
+.history .img_2 {
+    position: relative;
+    display: inline-block;
+    margin: 0 20px;
+}
+.history .img_2 a {
+    position: absolute;
+    bottom: 20px;
+    /* left: 100px; */
+    left: 5px;
+    text-decoration: none;
+    color: #FEFEFE;
+    font-size: 25px;
+}
+
+.history span:hover {
+    transform: scale(1.2);
+}
+.history .img_2 a:hover {
+    color: #ff2850;
+}
+
+
+/* 地理位置 */
+.Add {
+    position: relative;
+    margin:100px auto 0;;
+    width: 100%;
+    max-width: 1920px;
+    height: 900px;
+    background:url(..//images/add.jpg) no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    /* opacity: 0.8; */
+}
+/* history 字体 */
+.add_word {
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.add_word h1 {
+    position: absolute;
+    top: 200px;
+    left: 250px;
+    font-size: 54px;
+    color: #FEFEFE;
+}
+/* 三个照片 */
+.address {
+    position: absolute;
+    top: 300px;
+    right: 0;
+    width: 1140px;
+    height: 605px;
+    /* background-color: pink */
+    padding: 70px;
+    box-sizing: border-box;
+}
+.address span {
+    display: inline-block;
+    background:rgba(0, 0, 0, 0.6);
+    transition: all 0.4s;
+}
+.address .add_2 {
+    position: relative;
+    display: inline-block;
+    margin: 0 20px;
+}
+.address .add_2 a {
+    position: absolute;
+    bottom: 20px;
+    /* left: 100px; */
+    left: 5px;
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+}
+
+.address span:hover {
+    transform: scale(1.2);
+}
+.address .add_2 a:hover {
+    color: #ff2850;
+}

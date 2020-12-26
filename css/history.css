@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: auto;
+}
+.CenterPhoto {
+    position: relative;
+    margin:80px auto 0;
+    width: 100%;
+    max-width: 1920px;
+    background:url(../images/his.jpg) no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    /* max-height: 730px; */
+    height: 730px;
+    /* height: 100% */
+}
+.CenterPhoto .word {
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.6) ;
+}
+.CenterPhoto .word a {
+    display: block;
+    position: absolute;
+    top: 150px;
+    left: 100px; 
+    text-decoration: none;
+    font-size: 180px;
+    font-weight: 1000;
+    /* max-height: 540px; *
+    /* max-width: 75%; */
+    color: #FEFEFE;
+    transition: all .4s;
+}
+/* .CenterPhoto .word a:hover {
+    transform: scale(1.2);
+} */
+/* 按钮 */
+.CenterPhoto .fall {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+}
+
+/* 赛季标题 */
+#Season_title {
+    margin: 0 auto;
+    position: relative;
+    width: 90%;
+    max-width: 1920px;
+    height: 100px;
+    /* background-color: pink; */
+    /* background-color: #000; */
+}
+#Season_title .Season_word {
+    /* position: relative; */
+    padding-right: 30px;
+    box-sizing: border-box;
+    display: inline-block;
+    line-height: 100px;
+    font-size: 48px;
+    font-family: mv boli;
+    font-weight: 800;
+    line-height: 100px;
+    color: #000
+}
+#Season_title .Season_title_Line {
+    content: "";
+    position: absolute;
+    left: 470px;
+    bottom: 0;
+    height: 5px;
+    width: 100%;
+    max-width: 1266px;
+    background-color: #000;
+}
+
+/* 5冠 */
+.Title {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1920PX;
+    /* background-color: pink; */
+}
+.Title .Title_img {
+    float: left;
+    padding-top: 10px;
+    margin-top: 55px;
+    /* padding-left: 50px; */
+    box-sizing: border-box;
+}
+.Title .Title_img img {
+    transition: all 0.4s;
+}
+.Title .Title_img img:hover {
+    transform: scale(1.2);
+}
+
+.Title .Title_main {
+    width: 35%;
+    float: right;
+    height: auto;
+    /* background-color: purple; */
+    margin: 60px 64px 32px 110px;
+    box-sizing: border-box;
+}
+.Title span:first-child{
+    font-size: 40px;
+    color: #000;
+}
+.Title span:nth-child(2) {
+    color: #ccc;
+    font-size: 20px;
+}
+.Title_main p {
+    /* width: 40%; */
+    max-width: 761px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 20px;
+}
+
+/* 赛季标题 */
+#Season_title {
+    position: relative;
+    width: 90%;
+    max-width: 1920px;
+    /* background-color: pink; */
+    /* background-color: #000; */
+}
+#Season_title .Season_word {
+    /* position: relative; */
+    padding-right: 30px;
+    box-sizing: border-box;
+    display: inline-block;
+    line-height: 100px;
+    font-size: 48px;
+    font-family: mv boli;
+    font-weight: 800;
+    line-height: 100px;
+    color: #000
+}
+#Season_title .Season_title_Line {
+    content: "";
+    position: absolute;
+    left: 470px;
+    bottom: 0;
+    height: 5px;
+    width: 100%;
+    max-width: 1266px;
+    background-color: #000;
+}
+
+.clearfix:after{/*伪元素是行内元素 正常浏览器清除浮动方法*/
+	content: "";
+	display: block;
+	height: 0;
+	clear:both;
+	visibility: hidden;
+}
+.clearfix{
+	*zoom: 1;/*ie6清除浮动的方式 *号只有IE6-IE7执行，其他浏览器不执行*/
+}
+/* 传说 */
+.Title2 {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920PX;
+    /* background-color: pink; */
+}
+.Title2 .Title2_img {
+    overflow: hidden;
+    float: right;
+    padding-top: 10px;
+    /* padding-left: 50px; */
+    margin-top: 55px;
+    /* margin-right: 175px; */
+    box-sizing: border-box;
+}
+.Title2 .Title2_img img {
+    transition: all 0.4s;
+}
+.Title2 .Title2_img img:hover {
+    transform: scale(1.2);
+}
+
+.Title2 .Title2_main {
+    overflow: hidden;
+    width: 26%;
+    float: left;
+    /* background-color: purple; */
+    margin: 60px 0 0 120px;
+    box-sizing: border-box;
+}
+.Title2 span:first-child{
+    font-size: 40px;
+    color: #000;
+}
+.Title2 span:nth-child(2) {
+    color: #ccc;
+    font-size: 20px;
+}
+.Title2_main p {
+    /* width: 40%; */
+    max-width: 761px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 20px;
+}

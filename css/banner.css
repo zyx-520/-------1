@@ -1,0 +1,48 @@
+/* 头部css */
+.banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    /* max-width: 1920px; */
+    height: 80px;
+    background-color: #000;
+}
+.banner ul {
+    overflow: hidden;
+    position: relative;
+	max-width: 1920px;
+	margin: 0 auto;
+}
+.banner  ul li {
+    /* width: 30%; */
+    float: left;
+    margin: 0px 30px;
+    height: 80px;
+    line-height: 80px;
+    list-style: none;
+    cursor: pointer;
+}
+.banner  li a {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FEFEFE;
+}
+.banner li:last-child {
+    position: absolute;
+    top: 8px;
+    left: 960px;
+}
+.banner  li:hover a{
+    color: #ff2850;
+}
+.Juventes_icon {
+    display: inline-block;
+    margin: 6px auto;
+    position: absolute;
+    left: 50%;
+}
+

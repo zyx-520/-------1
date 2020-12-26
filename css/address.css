@@ -1,0 +1,190 @@
+
+.CenterPhoto {
+    margin: 0 auto;
+    position: relative;
+    margin-top: 80px;
+    width: 100%;
+    max-width: 1920px;
+    background:url(../images/Address.webp) no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    /* max-height: 730px; */
+    height: 730px;
+    /* height: 100% */
+}
+.CenterPhoto .word {
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.6) ;
+}
+.CenterPhoto .word a {
+    display: block;
+    position: absolute;
+    top: 150px;
+    left: 100px; 
+    text-decoration: none;
+    font-size: 180px;
+    font-weight: 1000;
+    /* max-height: 540px; *
+    /* max-width: 75%; */
+    color: #FEFEFE;
+    transition: all .4s;
+}
+/* .CenterPhoto .word a:hover {
+    transform: scale(1.2);
+} */
+/* 按钮 */
+.CenterPhoto .fall {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+}
+
+/* 康迪纳萨 */
+#KangDINaSa {
+    width: 100%;
+    max-width: 735px;
+    margin: 100px auto 0;
+}
+.loaction {
+    font-size: 60px;
+    /* line-height: 40px; */
+    line-height: 50px;
+    /* font-family: JuventusFans; */
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 20px
+}
+.location_main {
+    font-size: 20px;
+    /* line-height: 16px; */
+    line-height: 32px;
+    margin-top: 25px;
+}
+
+/* 项目*/
+.project {
+    margin:50px auto 0;
+    width: 100%;
+    max-width: 1920PX;
+    /* height: 600px; */
+    
+}
+.Title {
+    width: 100%;
+    max-width: 1920PX;
+    height: 600px;
+    /* background-color: pink; */
+}
+.Title .Title_img {
+    float: left;
+    padding-top: 10px;
+    margin-top: 55px;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+.Title .Title_img img {
+    transition: all 0.4s;
+}
+.Title .Title_img img:hover {
+    transform: scale(1.2);
+}
+
+.Title .Title_main {
+    width: 35%;
+    float: right;
+    height: auto;
+    /* background-color: purple; */
+    margin: 250px 64px 0 110px;
+    box-sizing: border-box;
+}
+.Title span:first-child{
+    font-size: 40px;
+    color: #000;
+}
+.Title span:nth-child(2) {
+    color: #ccc;
+    font-size: 20px;
+}
+.Title_main p {
+    /* width: 40%; */
+    max-width: 761px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 20px;
+}
+
+/* 俱乐部之家 */
+.club_home {
+    margin:50px auto 0;
+    width: 100%;
+    max-width: 1920PX;
+    height: 800px;
+}
+.Title2 {
+    width: 100%;
+    max-width: 1920PX;
+    /* height: 400px; */
+    /* background-color: pink; */
+}
+.Title2 .Title2_img {
+    overflow: hidden;
+    float: right;
+    margin-top: 55px;
+    box-sizing: border-box;
+}
+.Title2 .Title2_img img {
+    transition: all 0.4s;
+}
+.Title2 .Title2_img img:hover {
+    transform: scale(1.2);
+}
+
+.Title2 .Title2_main {
+    overflow: hidden;
+    width: 27%;
+    float: left;
+    height: 400px;
+    /* background-color: purple; */
+    margin: 170px 0 0 100px;
+    box-sizing: border-box;
+}
+.Title2 span:first-child{
+    font-size: 40px;
+    color: #000;
+}
+.Title2 span:nth-child(2) {
+    color: #ccc;
+    font-size: 20px;
+}
+.Title2_main p {
+    /* width: 40%; */
+    max-width: 761px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 20px;
+}
+
+
+/* 图片库 */
+.gallery {
+    position: relative;
+    margin: 150px auto 0;
+    width: 100%;
+    max-width: 1470px;
+    height: 855px;
+    /* background-color: pink; */
+}
+.gallery img {
+    transition: all .4s;
+}
+.gallery img:hover {
+    transform: scale(1.2);
+}

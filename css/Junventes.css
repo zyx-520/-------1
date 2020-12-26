@@ -1,0 +1,725 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner .ad_jeep {
+    position: absolute;
+    top: 0px;
+    right: 0;
+}
+
+.banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 80px;
+    background-color: #000;
+}
+
+.banner ul {
+    position: relative;
+    max-width: 1920px;
+    margin: 0 auto;
+    height: 80px;
+}
+
+.banner ul li {
+    /* width: 30%; */
+    float: left;
+    margin: 0px 30px;
+    height: 80px;
+    line-height: 80px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.banner li a {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FEFEFE;
+}
+
+.banner li:last-child {
+    position: absolute;
+    top: 8px;
+    left: 960px;
+}
+
+.banner li:hover a {
+    color: #ff2850;
+}
+
+.Juventes_icon {
+    display: inline-block;
+    margin: 6px auto;
+    position: absolute;
+    left: 50%;
+}
+
+/* 中央 video */
+.MainViedo {
+    height: 800px;
+    width: 100%;
+    position: relative;
+    /* position: relative;
+    /* z-index: -1; */
+    /* top: -100px; *
+    left: 0; */
+    background: rgba(0, 0, 0, 0.8);
+    /* background-color: #000; */
+    margin: 0 auto 150px;
+}
+
+.video-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.MainViedo video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.5;
+}
+
+.SmallIcon {
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+    z-index: 999;
+    list-style: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width:640px) {
+    .SmallIcon {
+        display: none;
+    }
+}
+
+.MainViedo .fall {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    bottom: 100px;
+}
+
+/* RaceDistance start */
+#RaceDistance {
+    max-width: 1920px;
+    height: 220px;
+    margin: 0 auto 0px;
+}
+
+/* 近期赛程 */
+#RaceDistance .RencentSchedule {
+    float: left;
+    padding-left: 10px;
+    box-sizing: border-box;
+    width: 43%;
+    height: 220px;
+    background-color: #2b2b2b;
+}
+
+.RencentSchedule span {
+    width: 100%;
+    display: block;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 1000;
+    padding-left: 15px;
+    color: #FEFEFE;
+}
+
+.RencentSchedule_Content {
+    padding-left: 15px;
+    margin-top: 15px;
+    display: flex;
+    height: 100%;
+    float: left;
+    flex: nowrap;
+}
+
+.RencentSchedule_Content_Info {
+    margin-top: 15px;
+    padding-right: 20px;
+}
+
+.RencentSchedule_Conten-Data {
+    background-color: #000;
+    padding: 1px 8px;
+    height: 148px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.RencentSchedule_Conten-Day {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.RencentSchedule_Conten-Month {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+/* 比赛概况 */
+.RencentSchedule_Content .survey {
+    display: flex;
+    margin-left: 20px;
+    width: 100%;
+    height: 148px;
+    /* background-color: pink; */
+}
+
+.Race_Content span {
+    text-transform: uppercase;
+    color: #999;
+    font-size: 16px;
+}
+
+/* 主队 */
+.HomeGround {
+    width: 220px;
+    height: 38px;
+}
+
+.Other_Name {
+    float: left;
+    padding-left: 15px;
+    /* line-height: 38px; */
+    color: #fff;
+    font-size: 28px;
+}
+
+.course {
+    float: right;
+    padding-left: 5px;
+    text-align: center;
+    color: #ff2850;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+/* 客队 */
+.AwayGround {
+    width: 220px;
+    height: 38px;
+}
+
+.Juventes_Name {
+    float: left;
+    padding-left: 15px;
+    /* line-height: 38px; */
+    color: #fff;
+    font-size: 28px;
+}
+
+/* 链接 */
+.Link_Race {
+    width: 220px;
+    height: 45px;
+    background-color: #FF2850;
+}
+
+.Link_Race a {
+    display: block;
+    line-height: 45px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFF;
+    animation: Race 3s ease-in-out infinite;
+}
+
+/* .link_race:hover {
+    animation: Race 3s ease-in-out infinite;
+} */
+@keyframes Race {
+    0% {
+        transform: scale(1);
+        color: #fff;
+        background-color: #ff2850;
+    }
+
+    50% {
+        transform: scale(0.6);
+        color: #ff2850;
+        background-color: #fff;
+    }
+
+    100% {
+        transform: scale(1);
+        color: #fff;
+        background-color: #ff2850;
+    }
+}
+
+/* 右侧小盒子 */
+.RencentSchedule_Content_Right {
+    margin-top: 15px;
+    display: flex;
+}
+
+
+
+/* 右侧盒子 */
+
+/* 下一场比赛 */
+#RaceDistance .NextSchedule {
+    position: relative;
+    float: right;
+    width: 55%;
+    height: 220px;
+    background-color: #2b2b2b;
+    /* background-color: pink; */
+}
+
+.NextRace {
+    display: flex;
+    height: 100%;
+    padding-top: 15px;
+    padding-left: 10px;
+    position: relative;
+}
+
+/* 小标题 */
+.NextRace span {
+    width: 100%;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 1000;
+    padding-left: 15px;
+    color: #FEFEFE;
+}
+
+/* 日期盒子 */
+.NextRace .RencentSchedule_Content_Info {
+    margin-top: 35px;
+    padding-right: 20px;
+    position: absolute;
+    left: 25px;
+    top: 35px;
+}
+
+.NextRace .RencentSchedule_Conten-Data {
+    background-color: #000;
+    padding: 1px 8px;
+    height: 148px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.NextRace .RencentSchedule_Conten-Day {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.NextRace .RencentSchedule_Conten-Month {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* 比赛详情 */
+.Next_survey {
+    width: 809px;
+    height: 154px;
+    position: absolute;
+    top: 58px;
+    left: 90px;
+    padding-top: 20px;
+}
+
+.Next_survey span {
+    width: 100%;
+    height: 16px;
+    display: block;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-left: 15px;
+    color: #999;
+}
+
+/* 主队 */
+.HomeGround {
+    width: 220px;
+    height: 38px;
+}
+
+.Other_Name {
+    float: left;
+    padding-left: 15px;
+    /* line-height: 38px; */
+    color: #fff;
+    font-size: 20px;
+}
+
+/* 客队 */
+.AwayGround {
+    width: 220px;
+    height: 38px;
+}
+
+.Juventes_Name {
+    float: left;
+    padding-left: 15px;
+    /* line-height: 38px; */
+    color: #fff;
+    font-size: 28px;
+}
+
+/* 链接 */
+.Link_two {
+    width: 220px;
+    height: 45px;
+    border: 1px solid #ff2850;
+    background-color: #000
+}
+
+.Link_two a {
+    display: block;
+    line-height: 45px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ff2850;
+}
+
+.Link_two:hover {
+    background-color: #fff;
+}
+
+/* 倒计时 */
+.Watch {
+    position: absolute;
+    top: -30px;
+    right: 0;
+    padding: 5px 10px;
+    width: 360px;
+    height: 170px;
+    background-color: #4A4A4A;
+}
+
+.Watch span {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.days,
+.hours,
+.mins,
+.secound {
+    display: inline-block;
+    /* height: 74px; */
+}
+
+#times span {
+    width: 40px;
+    /* display: block; */
+}
+
+#times .times {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: #CCC;
+    /* vertical-align: top; */
+    text-align: center;
+}
+
+
+
+.hublot-watch {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+/* 斑马军团 start */
+.AboutUs {
+    position: relative;
+    width: 100%;
+    max-width: 1920px;
+    height: 850px;
+    overflow: hidden;
+    margin: 0 auto;
+    background: url(../images/Address.webp) no-repeat center center rgba(0, 0, 0, 0.4);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.AboutUs .Club {
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.AboutUs .Club a {
+    display: block;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    text-decoration: none;
+    font-size: 180px;
+    font-weight: 1000;
+    /* max-height: 540px; *
+    /* max-width: 75%; */
+    color: #FEFEFE;
+    transition: all .4s;
+}
+
+.AboutUs .Club a:hover {
+    transform: scale(1.2);
+}
+
+
+/* ad start */
+.ad1 {
+    width: 100%;
+    /* max-width: 1920px; */
+    margin: 0 auto;
+    /* overflow: hidden; */
+}
+
+.ad1 img {
+    display: block;
+    margin: 90px auto;
+    transition: all .4s;
+}
+
+.ad1 img:hover {
+    transform: scale(1.2);
+}
+
+
+/* ad2 */
+.ad2 {
+    width: 100%;
+    /* max-width: 1920px; */
+    margin: 0 auto;
+}
+
+.ad2 img {
+    display: block;
+    margin: 90px auto;
+    transition: all .4s;
+}
+
+.ad2 img:hover {
+    transform: scale(1.2);
+}
+
+
+
+/* 两个模块 */
+.Lead-Fam {
+    width: 100%;
+    max-width: 1920px;
+    overflow: hidden;
+    margin: 0 auto;
+    /* background-color: pink; */
+}
+
+/* 一线球员 */
+.LeadingPlayer {
+    position: relative;
+    float: left;
+    width: 100%;
+    max-width: 1920px;
+    height: 720px;
+    background: url(../images/Fam.webp) no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    border-right: 10px solid red;
+    transition: all .4s;
+}
+
+.Members {
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.Members a {
+    display: block;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    z-index: 1;
+    text-decoration: none;
+    font-size: 160px;
+    font-weight: 1000;
+    /* max-height: 540px; *
+    /* max-width: 75%; */
+    color: #FEFEFE;
+    opacity: 0.6;
+    transition: all .4s;
+}
+
+.LeadingPlayer:hover {
+    transform: scale(1.2);
+    color: #ff2850;
+}
+
+.Members a:hover {
+    color: #ff2850;
+    opacity: 1;
+}
+
+/* ad3 */
+.ad3 {
+    width: 100%;
+    max-width: 1920px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.ad3 img {
+    display: block;
+    margin: 90px auto;
+    transition: all .4s;
+}
+
+.ad3 img:hover {
+    transform: scale(1.2);
+}
+
+/* 安联竞技场 */
+.Arena {
+    position: relative;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    height: 730px;
+    background: url(../images/AnLian1.webp) no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.Arena_word {
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.Arena_word a {
+    display: block;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    text-decoration: none;
+    font-size: 180px;
+    font-weight: 1000;
+    /* max-height: 540px; *
+    /* max-width: 75%; */
+    color: #FEFEFE;
+    transition: all .4s;
+}
+
+.Arena_word a:hover {
+    transform: scale(1.2);
+    color: #ff2850;
+}
+
+/* 结束
+.footer {
+    position: relative;
+    margin-top: 100px;
+    padding: 35px 20px 30px 20px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1920px;
+    /* height: 130px; */
+/* background-color: pink; 
+    background-color: #000;
+}
+.footer img {
+    display: block;
+    margin-top: 5px;
+}
+.footer ul {
+    position: absolute;
+    top: 35px;
+    right: 40px;
+    float: left;
+}
+.footer ul li {
+    list-style: none;
+    float: left;
+    margin: 10px;
+}
+.footer li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* .footer li:hover {
+    background-color: #ff2850;
+} */
+
+/* 白线 
+
+.footer .line {
+    margin: 20px auto;
+    max-width: 1548px;
+    border: 1px solid #333;
+}
+
+/* 版权 
+.footer .copyright {
+    width: 100%;
+    max-width: 1920px;
+    height: 152px;
+    background-color: #000;
+    color: #fff;
+}
+.copyright .copyright-year {
+    margin: 10px 0 0;
+    color: #666;
+    font-family: JuventusFans;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    line-height: 16px;
+    text-align: center;
+}
+.copyright .helpdesk-general-info-1,
+.copyright .helpdesk-general-info-2 {
+    margin: 10px 0 0;
+    color: #666;
+    font-family: JuventusFans;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    line-height: 16px;
+    text-align: center;
+}*/
